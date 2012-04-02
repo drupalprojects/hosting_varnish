@@ -137,7 +137,7 @@ function hosting_varnish_node_purge_cache($form_state, $site) {
     );
 
     $confirm_description = t('Purging the cache for the specified host names and path will cause the next pageview to trigger a Drupal page request. Are you sure you understand and still wish to continue?');
-    return confirm_form($form, t('Purge Varnish cache'), 'node/' . $site->nid . '/jag-varnish', $confirm_description, t('Purge'));
+    return confirm_form($form, t('Purge Varnish cache'), 'node/' . $site->nid . '/hosting-varnish', $confirm_description, t('Purge'));
   }
 
   return $form;
