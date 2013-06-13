@@ -42,19 +42,6 @@ function hosting_varnish_menu() {
 }
 
 /**
- * Implements hook_hosting_feature().
- */
-function hosting_varnish_hosting_feature() {
-  $features['varnish'] = array(
-    'title' => t('Varnish integration'),
-    'description' => t('Manage Varnish cache for individual sites.'),
-    'status' => HOSTING_FEATURE_ENABLED,
-    'group' => 'experimental',
-  );
-  return $features;
-}
-
-/**
  * Checks if node is site and on live server (and user has purge permission).
  */
 function hosting_varnish_check_valid_site($site) {
