@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * Hosting feature definition.
+ */
 
 /**
  * Implements hook_hosting_feature().
