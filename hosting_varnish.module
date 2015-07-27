@@ -71,7 +71,7 @@ function hosting_varnish_check_valid_site($site) {
 /**
  * Purges cache for a site.
  */
-function hosting_varnish_node_purge_cache($form_state, $site) {
+function hosting_varnish_node_purge_cache($form, $form_state, $site) {
   $form = array();
 
   if (!hosting_varnish_ready()) {

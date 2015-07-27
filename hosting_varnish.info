@@ -1,6 +1,6 @@
 name = Hosting Varnish integration
 description = Integrate hosted sites with a Varnish server.
-core = 6.x
+core = 7.x
 php = 5.2
 dependencies[] = hosting
 dependencies[] = varnish
